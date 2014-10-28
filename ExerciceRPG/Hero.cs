@@ -10,9 +10,14 @@ namespace ExerciceRPG
     {
         public int MagicPower { get; set; }
 
-        public Hero(String name)
+        public Hero(String name, int magicPower, int healthPoints, int position)
+            : base(name, healthPoints, position)
         {
-            Name = name;
+            MagicPower = magicPower;
+        }
+        public void Move(int distance)
+        {
+
         }
     }
 }

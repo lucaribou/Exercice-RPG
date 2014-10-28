@@ -8,11 +8,17 @@ namespace ExerciceRPG
 {
     abstract class Character
     {
-        public abstract String Name { get; set; }
-        public abstract int Position { get; set; }
-        public abstract int HealthPoints { get; set; }
+        public String Name { get; set; }
+        public int Position { get; set; }
+        public int HealthPoints { get; set; }
 
         public abstract void Move();
-        public abstract void SeDeplacer();
+
+        public Character(String name, int healthPoints, int position)
+        {
+            Name = name;
+            Position = position;
+            HealthPoints = healthPoints;
+        }
     }
 }

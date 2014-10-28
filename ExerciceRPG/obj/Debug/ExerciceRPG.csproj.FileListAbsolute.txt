@@ -1,3 +1,4 @@
 c:\users\lucas_000\documents\visual studio 2013\Projects\ExerciceRPG\ExerciceRPG\bin\Debug\ExerciceRPG.exe.config
 C:\home\dev\c#\Exercice-RPG\ExerciceRPG\bin\Debug\ExerciceRPG.exe.config
 C:\home\dev\c#\Exercice-RPG\ExerciceRPG\obj\Debug\ExerciceRPG.csprojResolveAssemblyReference.cache
+C:\Users\lucas_000\Documents\Visual Studio 2013\Projects\Exercice-RPG\ExerciceRPG\bin\Debug\ExerciceRPG.exe.config
