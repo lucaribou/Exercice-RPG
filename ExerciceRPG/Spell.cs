@@ -8,8 +8,14 @@ namespace ExerciceRPG
 {
     abstract class Spell
     {
-        public abstract int Range { get; set; }
-        public abstract int Damage { get; set; }
+        public int Range { get; set; }
+        public int Damage { get; set; }
+
+        public Spell(int range, int damage)
+        {
+            Range = range;
+            Damage = damage;
+        }
 
         public abstract void Cast();
     }

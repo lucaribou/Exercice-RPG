@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExerciceRPG
 {
-    class Program
+    class SpellFire : Spell
     {
-        static void Main(string[] args)
-        {
-            Console.ReadKey();
-        }
+        public int DamageOverTime { get; set; }
     }
 }
